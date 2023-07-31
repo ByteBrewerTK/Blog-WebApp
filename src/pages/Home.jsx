@@ -11,7 +11,9 @@ export default function Home() {
       <Header/>
 
         
-        <Blogs/>
+        <div className='overflow-y-auto w-full h-full'>
+          <Blogs/>
+        </div>
 
         <Pagination/>
         

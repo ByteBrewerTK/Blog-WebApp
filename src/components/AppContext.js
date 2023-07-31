@@ -49,13 +49,11 @@ export default function AppContextProvider({children}){
 
         if(location.pathname.includes('tags')){
             const tag = location.pathname.split('/').at(-1).replaceAll('-', ' ');
-            console.log(tag)
             fetchBlogPosts(Number(page),tag,null);
         }
 
         else if(location.pathname.includes("categories")){
             const category = location.pathname.split("/").at(-1).replaceAll('-', ' ');
-            console.log(category)
 
             fetchBlogPosts(Number(page),null,category);
         }else{

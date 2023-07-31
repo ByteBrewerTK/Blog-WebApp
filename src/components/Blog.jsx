@@ -2,8 +2,7 @@ import React from 'react'
 import {NavLink} from 'react-router-dom'
 
 export default function Blog({post}) {
-    console.log(post)
-    console.log(post)
+   
     return (
         <div >
                 <NavLink to={`/blog/${post.id}`} className='font-bold mb-2 text-[1.2rem] md:text-[1.3rem] hover:underline underline-offset-4'>{post.title}</NavLink>

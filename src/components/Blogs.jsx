@@ -8,7 +8,7 @@ export default function Blogs() {
     const {posts, loading} = useContext(AppContext);
     
     return (
-        <div className='grow w-full overflow-y-auto pt-4 overflow-x-hidden '>
+        <div className='w-full h-full pt-4 '>
             <div className='h-full w-full sm:w-[90%] md:w-[80%] lg:w-[43%] mx-auto' >
             
             {
