@@ -1,7 +1,5 @@
+import BlogPage from './pages/BlogPage';
 import { Route, Routes} from 'react-router-dom';
-import BlogPage from './pages/BlogPage';
-import { Route, Routes, useLocation, useSearchParams } from 'react-router-dom';
-import BlogPage from './pages/BlogPage';
 import Home from './pages/Home';
 import CategoryPage from './pages/CategoryPage';
 import TagPage from './pages/TagPage';
