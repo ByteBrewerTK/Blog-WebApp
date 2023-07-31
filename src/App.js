@@ -9,7 +9,7 @@ import TagPage from './pages/TagPage';
 export default function App() {
 
   return (
-    <div className=' w-screen min-h-screen text-[12px] overflow-hidden'>
+    <div className=' grow text-[12px] overflow-hidden'>
       
       <Routes>
         <Route path='/' element = {<Home/>}/>
