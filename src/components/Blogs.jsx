@@ -9,7 +9,7 @@ export default function Blogs() {
     
     return (
         <div className='w-full h-full pt-4 '>
-            <div className='h-full w-full sm:w-[90%] md:w-[80%] lg:w-[43%] mx-auto' >
+            <div className='h-full w-full sm:w-[90%] md:w-[80%] lg:w-[43%] mx-auto px-4' >
             
             {
                 loading ? <Loader/> : (

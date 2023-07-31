@@ -57,10 +57,11 @@ export default function AppContextProvider({children}){
 
             fetchBlogPosts(Number(page),null,category);
         }else{
+            
             fetchBlogPosts(Number(page));
         }
     
-    }, [location.pathname,location.search,searchParams,page ]);
+    }, [location.pathname,location.search,searchParams]);
     
 
     const pageChangeHandeler = (page) =>{

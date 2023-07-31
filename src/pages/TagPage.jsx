@@ -19,7 +19,7 @@ export default function TagPage() {
 
             <div className='flex flex-col w-full h-full overflow-x-auto'>
       
-                <div className='w-full sm:w-[90%] md:w-[80%] lg:w-[43%] mx-auto text-[1.2rem] md:text-[1.3rem] pt-4 flex' >
+                <div className='w-full sm:w-[90%] md:w-[80%] lg:w-[43%] mx-auto text-[1.2rem] md:text-[1.3rem] pt-4 flex px-4' >
 
                     <button className='mr-2' onClick={() =>{navigation(-1)}}><FaArrowLeft/></button>
 

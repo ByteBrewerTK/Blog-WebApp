@@ -55,14 +55,14 @@ export default function BlogPage() {
         <div className='flex flex-col h-screen'>
             <Header/> 
             
-            <div className='w-full h-full overflow-y-auto'>
+            <div className='w-full h-full overflow-y-auto flex'>
                 {
                 loading ? <Loader/> 
-                        : (<div className='w-full sm:w-[90%] md:w-[80%] lg:w-[43%] flex flex-col mx-auto pt-4 mb-2'>
+                        : (<div className='w-full sm:w-[90%] md:w-[80%] lg:w-[43%] flex flex-col mx-auto pt-4 mb-2 px-4'>
                     <button className=' text-[1.3rem] mb-2' onClick={()=>{navigation(-1)}}><FaArrowLeft/></button>
 
 
-                    <div>
+                <div className='w-full h-full'>
                     {
                         
                         blog ? (
@@ -80,7 +80,7 @@ export default function BlogPage() {
 
                         )
                         :
-                        <div>No Blog Found</div>
+                        <div className='h-full w-full flex justify-center items-center text-[1.3rem]'>No Blog Found</div>
                     }
                 </div>
                     
